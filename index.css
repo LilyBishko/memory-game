@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Playfair+Display&family=Roboto&display=swap');
+@font-face {
+    font-family:'Lobster', cursive;;
+    src: url(@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Playfair+Display&family=Roboto&display=swap'););
+}
+
+:root { 
+    --main-color-text: #ff3399;
+    --second-color-text: #6666ff;
+    --light-text: #f2f2f2;
+}
+.body {
+    background-image: url(/img/background-img.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.main-name {
+font-family: 'Lobster', cursive;
+font-size: 150px;
+text-align: center;
+text-shadow: 2px 2px 4px rgba(0,0,0,0.7);;
+margin-left: 256px;
+transform-origin: center;
+display: inline-block;
+} 
+
+ .memory {
+    color: var(--main-color-text);
+ }
+
+ .game {
+    color: var(--second-color-text);
+ }
+.game-text {
+    display: flex;
+    font-size: 29px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-left: 302px;
+    margin-top: -129px;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.7);;
+    color: var(--light-text);
+}
+
+
