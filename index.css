@@ -1,189 +1,5 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Lobster&family=Playfair+Display&family=Roboto&display=swap');
-@font-face {
-    font-family:'Lobster', cursive;;
-    src: url(@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Playfair+Display&family=Roboto&display=swap'););
-}
+   @import url('https://fonts.googleapis.com/css2?family=Lobster&family=Playfair+Display&family=Roboto&display=swap');
 
-* {
-    margin: 0;
-    padding: 0;
-}
-:root { 
-    --main-color-text: #ff3399;
-    --second-color-text: #6666ff;
-    --light-text: #f2f2f2;
-}
-.body {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    width: 100%;
-    height: 100%;
-    background-color: #262626;
-    background-image: linear-gradient(to bottom, #262626, #727779);
-}
-    
-    
-}
-  /*  background-color: #87ceeb; 
-    background-color: skyblue;
-    background-image: -webkit-linear-gradient(90deg, skyblue 0%, steelblue 100%);
-    background-attachment: fixed;
-    background-size: 100% 100%;
-    overflow: hidden;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    -webkit-font-smoothing: antialiased; */
-  /*  background: #2980b9 url('https://static.tumblr.com/03fbbc566b081016810402488936fbae/pqpk3dn/MRSmlzpj3/tumblr_static_bg3.png') repeat 0 0;
-    -webkit-animation: 10s linear 0s normal none infinite animate;
-    -moz-animation: 10s linear 0s normal none infinite animate;
-    -ms-animation: 10s linear 0s normal none infinite animate;
-    -o-animation: 10s linear 0s normal none infinite animate;
-    animation: 10s linear 0s normal none infinite animate;
-}
-
-@-webkit-keyframes animate {
-    from {background-position:0 0;}
-    to {background-position: 500px 0;}
-  }
-   
-  @-moz-keyframes animate {
-    from {background-position:0 0;}
-    to {background-position: 500px 0;}
-  }
-   
-  @-ms-keyframes animate {
-    from {background-position:0 0;}
-    to {background-position: 500px 0;}
-  }
-   
-  @-o-keyframes animate {
-    from {background-position:0 0;}
-    to {background-position: 500px 0;}
-  }
-   
-  @keyframes animate {
-    from {background-position:0 0;}
-    to {background-position: 500px 0;}
-  } 
-  
-  
-  
-  
-
-/*::selection {
-    background: transparent;
-} */
-/*
-
-.main-block {
-    position: relative;
-    width: 100%;
-}
-
-
-
-.title {
-    cursor: default;
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 30px;
-    width: 100%;
-    height: 100px;
-    margin-top: 30px;
-    margin-left: 0px;
-    display: block;
-    text-align: center;
-    color: transparent;
-}
-.title span {
-    display: inline-block;
-    font-size: 180px;
-    color: #fff;
-    text-shadow: 0 1px 0 #ccc, 0 2px 0 #ccc, 0 3px 0 #ccc, 0 4px 0 #ccc,
-        0 5px 0 #ccc, 0 6px 0 transparent, 0 7px 0 transparent, 0 8px 0 transparent,
-        0 9px 0 transparent, 0 10px 10px rgba(0, 0, 0, 0.4);
-    animation: scaleUpDown 2s linear infinite;
-    transform-origin: center;
-}
-
-@keyframes scaleUpDown {
-    0%, 100% {
-        transform: scale(1);
-    }
-    50% {
-        transform: scale(1.2);
-    }
-}
-
-
-.level-container {
-    text-align: center;
-    margin-top: 560px;
-}
-
-.level-list {
-    list-style: none;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    
-}
-.level {
-    padding-right: 0px;
-    text-decoration: none;
-    font-size: 45px;
-    background: #bfc9eb;
-    background-image: -webkit-linear-gradient(top, #bfc9eb, #1a6391);
-    background-image: -moz-linear-gradient(top, #bfc9eb, #1a6391);
-    background-image: -ms-linear-gradient(top, #bfc9eb, #1a6391);
-    background-image: -o-linear-gradient(top, #bfc9eb, #1a6391);
-    background-image: linear-gradient(to bottom, #bfc9eb, #1a6391);
-    -webkit-border-radius: 40;
-    -moz-border-radius: 40;
-    border-radius: 40px;
-    -webkit-box-shadow: 17px 11px 8px #040405;
-    -moz-box-shadow: 17px 11px 8px #040405;
-    box-shadow: 17px 11px 8px #040405;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color: #ffffff;
-    font-size: 32px;
-    padding: 10px 20px 10px 20px;
-    text-decoration: none;
-}
-/*
-.easy-level {
-    background: rgb(238,174,202);
-    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,0.7049413515406162) 100%);
-    padding: 10px 10px 10px 10px;
-    clip-path: polygon(20% 0%, 80% 0%, 100% 20%, 100% 80%, 80% 100%, 20% 100%, 0% 80%, 0% 20%);
-    margin-right: 15px;
-    
-    
-    
-}
-.medium-level {
-    background: rgb(238,174,202);
-    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,0.7049413515406162) 100%);
-    padding: 10px 10px 10px 10px;
-    clip-path: polygon(20% 0%, 80% 0%, 100% 20%, 100% 80%, 80% 100%, 20% 100%, 0% 80%, 0% 20%);
-    margin-right: 15px;
-    
-    
-}
-
-.hard-level {
-    background: rgb(238,174,202);
-    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,0.7049413515406162) 100%);
-    padding: 10px 10px 10px 10px;
-    clip-path: polygon(20% 0%, 80% 0%, 100% 20%, 100% 80%, 80% 100%, 20% 100%, 0% 80%, 0% 20%);
-    */
- 
-    @import url('https://fonts.googleapis.com/css2?family=Lobster&family=Playfair+Display&family=Roboto&display=swap');
-    @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Lobster&family=Playfair+Display&family=Roboto&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -203,18 +19,17 @@
     bottom: 0;
     width: 100%;
     height: 100%;
-    background-image:url(./img/Знімок\ екрана\ 2023-09-25\ о\ 22.29.09.png);
-    background-color: rgba(0, 0, 0, 0.5);
-    background-repeat: no-repeat;
-    background-size: cover;
-    overflow: hidden;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     -webkit-font-smoothing: antialiased;
+    background-image: url(./img/11030.jpg);
+    background-size: cover;
 }
+
 
 .main-block {
     position: relative;
     width: 100%;
+    
 }
 
 .title {
@@ -235,21 +50,12 @@
 
 .title span {
     display: inline-block;
-    font-size: 180px;
-    color: #fff;
-   /* text-shadow: 0 1px 0 #ccc, 0 2px 0 #ccc, 0 3px 0 #ccc, 0 4px 0 #ccc,
-        0 5px 0 #ccc, 0 6px 0 transparent, 0 7px 0 transparent, 0 8px 0 transparent,
-        0 9px 0 transparent, 0 10px 10px rgba(0, 0, 0, 0.4); */
-        text-shadow: 
-        2px 2px 0px red,
-        4px 4px 0px green,
-        6px 6px 0px blue,
-        8px 8px 0px violet,
-        10px 10px 0px pink,
-        12px 12px 0px orange,
-        14px 14px 0px cyan;
+    font-size: 130px;
+    color: #e0dfdc;
+    letter-spacing: .1em;
+    text-shadow: 0 -1px 0 #fff, 0 1px 0 #2e2e2e, 0 2px 0 #2c2c2c, 0 3px 0 #2a2a2a, 0 4px 0 #282828, 0 5px 0 #262626, 0 6px 0 #242424, 0 7px 0 #222, 0 8px 0 #202020, 0 9px 0 #1e1e1e, 0 10px 0 #1c1c1c, 0 11px 0 #1a1a1a, 0 12px 0 #181818, 0 13px 0 #161616, 0 14px 0 #141414, 0 15px 0 #121212, 0 22px 30px rgba(0,0,0,0.9);
     animation: scaleUpDown 2s linear infinite;
-    transform-origin: center;
+    transform-origin: center; */
 }
 
 @keyframes scaleUpDown {
@@ -263,26 +69,21 @@
 
 .level-container {
     text-align: center;
-    margin-top: 560px;
+    margin-top: 630px;
 }
 
-.level-list {
-    list-style: none;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
 
 .new-level {
-    padding-right: 0px;
     text-decoration: none;
     font-size: 45px;
-    
+    margin-right: 25px;
     width: 220px;
     border: none; 
     outline: none;
-    color: #262626; 
-    font-family: 'Comfortaa', cursive;
+    color:#e0dfdc; 
+    letter-spacing: .1em;
+    text-shadow: 0 -1px 0 #fff, 0 1px 0 #2e2e2e, 0 2px 0 #2c2c2c, 0 3px 0 #2a2a2a, 0 4px 0 #282828, 0 5px 0 #262626, 0 6px 0 #242424, 0 7px 0 #222, 0 8px 0 #202020, 0 9px 0 #1e1e1e, 0 10px 0 #1c1c1c, 0 11px 0 #1a1a1a, 0 12px 0 #181818, 0 13px 0 #161616, 0 14px 0 #141414, 0 15px 0 #121212, 0 22px 30px rgba(0,0,0,0.9);
+    font-family: Arial, Helvetica, sans-serif;
     cursor: pointer;
     position: relative;
     z-index: 0;
@@ -295,7 +96,7 @@
 
 .new-level:before {
     content: '';
-    background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+    background: linear-gradient(45deg, #05438f, #2e2649, #353396, #363835, #3a4a9b, #002bff, #7a00ff, #363261, #121212);
     position: absolute;
     top: -2px;
     left:-2px;
@@ -307,7 +108,7 @@
     animation: glowing 20s linear infinite;
     opacity: 0;
     transition: opacity .3s ease-in-out;
-    border-radius: 0px;
+    border-radius: 15px;
 }
 
 .new-level:active {
