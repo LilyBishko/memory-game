@@ -1,82 +1,15 @@
-<!--
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="easy-level.css">
-    <title>Easy Level</title>
+    <title>Level</title>
 </head>
-<body>
- <div class="wrapper">
-    <section class="memory-game">
-        <div class="memory-card">
-             <img src="" alt="" class="front-side">
-             <img src="./img/back-side.svg" alt="" class="back-side">
-        </div>
-        <div class="memory-card"></div>
-             <img src="" alt="" class="front-side">
-             <img src="./img/back-side.svg" alt="" class="back-side">
-        </div>
-        <div class="memory-card"></div>
-             <img src="" alt="" class="front-side">
-             <img src="./img/back-side.svg" alt="" class="back-side">
-        </div>
-        <div class="memory-card"></div>
-             <img src="" alt="" class="front-side">
-             <img src="./img/back-side.svg" alt="" class="back-side">
-        </div>
-        <div class="memory-card"></div>
-             <img src="" alt="" class="front-side">
-             <img src="./img/back-side.svg" alt="" class="back-side">
-        </div>
-        <div class="memory-card"></div>
-             <img src="" alt="" class="front-side">
-             <img src="./img/back-side.svg" alt="" class="back-side">
-        </div>
-        <div class="memory-card"></div>
-             <img src="" alt="" class="front-side">
-             <img src="./img/back-side.svg" alt="" class="back-side">
-        </div>
-        <div class="memory-card"></div>
-             <img src="" alt="" class="front-side">
-             <img src="./img/back-side.svg" alt="" class="back-side">
-        </div>
-        <div class="memory-card"></div>
-             <img src="" alt="" class="front-side">
-             <img src="./img/back-side.svg" alt="" class="back-side">
-        </div>
-        <div class="memory-card"></div>
-             <img src="" alt="" class="front-side">
-             <img src="./img/back-side.svg" alt="" class="back-side">
-        </div>
-        <div class="memory-card"></div>
-             <img src="" alt="" class="front-side">
-             <img src="./img/back-side.svg" alt="" class="back-side">
-        </div>
-        <div class="memory-card"></div>
-             <img src="" alt="" class="front-side">
-             <img src="./img/back-side.svg" alt="" class="back-side">
-        </div>
-      </section>
- </div>
-   
-    
-    <script src="easy-level.js"></script>
-</body>
-</html> -->
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="easy-level.css">
-    <title>Easy Level</title>
-</head>
-<body>
+<body class="body">
     <div id="moves">Moves: 0</div>
-    <div class="wrapper">
-        
+    <div class="countdown">Time left = <span id="timer"></span></div>  
+    <div class="wrapper">     
         <section class="memory-game">
             <div class="memory-card" data-picture="umbrella">
                 <img src="./img/umbrella.svg" alt="umbrella" class="front-side">
@@ -122,12 +55,12 @@
                 <img src="./img/snow_games.svg" alt="winterGames" class="front-side">
                 <img src="./img/back-side.svg" alt="" class="back-side">
             </div>
+            
             <div class="memory-card" data-picture="winterGames">
                 <img src="./img/snow_games.svg" alt="winterGames" class="front-side">
                 <img src="./img/back-side.svg" alt="" class="back-side">
-            </div>
-            
-        </section>
+            </div>       
+        </section>  
     </div>
     <script src="easy-level.js"></script>
 </body>

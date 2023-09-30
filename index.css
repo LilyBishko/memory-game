@@ -21,9 +21,8 @@
     height: 100%;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     -webkit-font-smoothing: antialiased;
-   /* background-image: url(./img/4862584.jpg);
-    background-size: cover; */
-    background: #05438f;
+    background-image: url(./img/rm314-bb-005.jpg);
+    background-size: cover;
 }
 
 
@@ -35,8 +34,6 @@
     justify-content: center;
     align-items: center;
 }
-
-
 
 .title {
     cursor: default;
@@ -53,15 +50,14 @@
     text-align: center;
     color: transparent;
 }
-
 .title span {
     display: inline-block;
     font-size: 130px;
     color: #e0dfdc;
     letter-spacing: .1em;
-    text-shadow: 0 -1px 0 #fff, 0 1px 0 #2e2e2e, 0 2px 0 #2c2c2c, 0 3px 0 #2a2a2a, 0 4px 0 #282828, 0 5px 0 #262626, 0 6px 0 #242424, 0 7px 0 #222, 0 8px 0 #202020, 0 9px 0 #1e1e1e, 0 10px 0 #1c1c1c, 0 11px 0 #1a1a1a, 0 12px 0 #181818, 0 13px 0 #161616, 0 14px 0 #141414, 0 15px 0 #121212, 0 22px 30px rgba(0,0,0,0.9);
+    text-shadow: 0 -1px 0 #fff, 0 1px 0 #0a0a0a, 0 2px 0 #030403, 0 3px 0 #421689, 0 4px 0 #000000, 0 5px 0 #000000, 0 6px 0 #000000, 0 7px 0 #000000, 0 8px 0 #0f0e0e, 0 9px 0 #1e1e1e, 0 10px 0 #1c1c1c, 0 11px 0 #1a1a1a, 0 12px 0 #181818, 0 13px 0 #161616, 0 14px 0 #141414, 0 15px 0 #121212, 0 22px 30px rgba(0,0,0,0.9); 
     animation: scaleUpDown 2s linear infinite;
-    transform-origin: center; */
+    transform-origin: center; 
 }
 
 @keyframes scaleUpDown {
@@ -78,23 +74,21 @@
     margin-top: 490px;
 }
 
-
-
 .new-level {
     text-decoration: none;
-    font-size: 45px;
+    font-size: 50px;
     margin-right: 25px;
     width: 220px;
     border: none; 
     outline: none;
-    color:#e0dfdc; 
+    color:#fffefe; 
     letter-spacing: .1em;
-    text-shadow: 0 -1px 0 #fff, 0 1px 0 #2e2e2e, 0 2px 0 #2c2c2c, 0 3px 0 #2a2a2a, 0 4px 0 #282828, 0 5px 0 #262626, 0 6px 0 #242424, 0 7px 0 #222, 0 8px 0 #202020, 0 9px 0 #1e1e1e, 0 10px 0 #1c1c1c, 0 11px 0 #1a1a1a, 0 12px 0 #181818, 0 13px 0 #161616, 0 14px 0 #141414, 0 15px 0 #121212, 0 22px 30px rgba(0,0,0,0.9);
+    text-shadow: 0 -1px 0 #e14343, 0 1px 0 #6b18ab, 0 2px 0 #2823c2, 0 3px 0 #090909, 0 4px 0 #a9298b, 0 5px 0 #2d56c7, 0 6px 0 #d21919, 0 7px 0 #222, 0 8px 0 #202020, 0 9px 0 #1e1e1e, 0 10px 0 #1c1c1c, 0 11px 0 #1a1a1a, 0 12px 0 #181818, 0 13px 0 #161616, 0 14px 0 #141414, 0 15px 0 #121212, 0 22px 30px rgba(60, 9, 70, 0.9);
     font-family: Arial, Helvetica, sans-serif;
     cursor: pointer;
     position: relative;
     z-index: 0;
-    border-radius: 30px;
+    border-radius: 0px;
 }
 
 .new-level {
@@ -146,3 +140,4 @@
     50% { background-position: 400% 0; }
     100% { background-position: 0 0; }
 }
+
